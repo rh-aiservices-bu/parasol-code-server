@@ -1,0 +1,38 @@
+{
+  "models": [
+    {
+      "title": "MODEL_NAME",
+      "model": "MODEL_NAME",
+      "apiBase": "MODEL_ENDPOINT_URL",
+      "completionOptions": {
+      "temperature": 0.1,
+      "topK": 1,
+      "topP": 1,
+      "presencePenalty": 0,
+      "frequencyPenalty": 0
+      },
+      "provider": "openai",
+      "apiKey": "API_KEY"
+  }
+  ],
+  "tabAutocompleteModel": {
+    "title": "MODEL_NAME",
+    "model": "MODEL_NAME",
+    "apiBase": "MODEL_ENDPOINT_URL",
+    "completionOptions": {
+    "temperature": 0.1,
+    "topK": 1,
+    "topP": 1,
+    "presencePenalty": 0,
+    "frequencyPenalty": 0
+    },
+    "provider": "openai",
+    "apiKey": "API_KEY"
+ },
+ "tabAutocompleteOptions": {
+    "useCopyBuffer": false,
+    "maxPromptTokens": 1024,
+    "prefixPercentage": 0.5
+ }
+ }
+ 
